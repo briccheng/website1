@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1 ,#faf061 , #7278e8",
   firstName: "Brian (Chang-Yu)",
   middleName: "",
   lastName: "Cheng",
@@ -44,7 +44,7 @@ const about = {
   imageLink: require("../editable-stuff/cheng.png"),
   imageSize: 375,
   message:
-    "My name is Brian Cheng, and I'm currently pursuing a Master's degree in Computer Science at the University of Texas at Austin. I have 2 years of experience as a Software Test Engineer at Visa, I developed automation tools using JavaScript, TypeScript, REST APIs, Java, and Selenium to improving testing efficiency and reducing manual processes. I also have experience in software development with projects ranging from backend to full-stack applications development.",
+    "My name is Brian Cheng, and I'm currently pursuing a Master's degree in Computer Science at the University of Texas at Austin. I have 2 years of experience as a Software Test Engineer at Visa, developing automation tools using JavaScript, TypeScript, REST APIs, Java, and Selenium to improving testing efficiency and reducing manual processes. I also have experience in software development during internship and projects ranging from backend to full-stack applications development.",
   resume: "https://drive.google.com/file/d/129eo5EBNneS-BgA3kFNpnr2HVEvBFHlV/view?usp=sharing",
 };
 
@@ -87,7 +87,7 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -116,7 +116,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time entry-level Software Engineering opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "bricheng.job@gmail.com",
 };
 
@@ -125,14 +125,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Test Engineer',// Here Add Company Name
+      companylogo: require('../assets/img/visa.png'),
+      date: 'March 2022 - Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Software Engineer Intern',
+      companylogo: require('../assets/img/Allianz.png'),
+      date: 'July 2019 – August 2019',
     },
   ]
 }
